@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "YouTubeLegacyUI",
+  "version": "1.0.0",
+  "description": "YouTubeを旧UIにします",
+  "icons": {
+    "16": "icons/icon_x16.png",
+    "48": "icons/icon_x48.png",
+    "128": "icons/icon_x128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["css/main.css"]
+    }
+  ]
+}

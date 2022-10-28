@@ -1,0 +1,116 @@
+/* Search Box */
+.ytd-searchbox{
+    border-radius: 0 !important;
+}
+
+/* Shape Next Button */
+.yt-spec-button-shape-next{
+    border-radius: 2px !important;
+}
+
+/* Side Hover */
+#contentContainer .ytd-guide-section-renderer{
+    border-radius: 2px !important;
+}
+
+#contentContainer .ytd-guide-section-renderer a{
+    border-radius: 2px !important;
+}
+
+/* Side Channel Icon */
+.ytd-guide-entry-renderer img{
+    border-radius: 999px !important;
+}
+
+/* Ad Button */
+.ytp-ad-button{
+    border-radius: 2px !important;
+}
+
+.ytp-ad-module .ytp-ad-player-overlay-flyout-cta{
+    border-radius: 2px !important;
+}
+
+/* Ad Info */
+#info-button button{
+    border-radius: 999px !important;
+}
+
+/* Ad Look Up */
+#ad-badge .ytd-badge-supported-renderer span{
+    background-color: #ffd700;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+/* Video Overlay Channel Subscribe */
+.ytp-button .ytp-sb-subscribe, .ytp-sb-unsubscribe{
+    border-radius: 2px !important;
+}
+
+/* Video Auto Play */
+.ytp-autonav-endscreen-countdown-overlay .ytp-player-content .ytp-autonav-endscreen-button-container button{
+    border-radius: 2px !important;
+}
+
+.ytp-autonav-endscreen-countdown-overlay .ytp-player-content .ytp-autonav-endscreen-button-container a{
+    border-radius: 2px !important;
+}
+
+/* Video Utils */
+#menu .ytd-watch-metadata button{
+    background-color: transparent !important;
+    border-radius: 2px !important;
+}
+
+/* Video Channel */
+#owner{
+    padding: 5px !important;
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+    border-radius: 3px !important;
+    border: solid 1px !important;
+    border-color: #474747 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+#owner .ytd-subscribe-button-renderer button{
+    border-radius: 2px !important;
+}
+
+#owner #notification-preference-button{
+    margin-left: 5px !important;
+}
+
+/* Video Description */
+#bottom-row #description{
+    background-color: transparent !important;
+    border-radius: 2px !important;
+}
+
+/* Meta Description */
+#always-shown .ytd-rich-metadata-row-renderer #endpoint-link{
+    background-color: #030303 !important;
+}
+
+#always-shown .ytd-rich-metadata-row-renderer{
+    border-radius: 2px !important;
+}
+
+/* Video Comment More Reply */
+.ytd-comment-replies-renderer .more-button button{
+    border-radius: 2px !important;
+    margin-bottom: 5px !important;
+}
+
+/* Video Live Chat */
+#show-hide-button .ytd-live-chat-frame{
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+/* Shorts Utils */
+#actions .yt-spec-button-shape-next{
+    border-radius: 999px !important;
+}

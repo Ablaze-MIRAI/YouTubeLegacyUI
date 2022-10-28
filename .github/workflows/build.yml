@@ -1,0 +1,36 @@
+name: Build⚡
+
+on:
+  push:
+    tags:
+      - "*"
+      
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout🎫
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Build v2🛠
+        run: |
+          mkdir v2
+          cp manifest_v2.json v2/manifest.json
+          cp -r css v2
+          cp -r icons v2
+          cd v2
+          zip -r ../Manifest_v2 .
+      - name: Build v3🛠
+        run: |
+          mkdir v3
+          cp manifest_v3.json v3/manifest.json
+          cp -r css v3
+          cp -r icons v3
+          cd v3
+          zip -r ../Manifest_v3 .
+      - name: Upload🌠
+        uses: actions/upload-artifact@v3
+        with:
+          name: Binalys
+          path: "*.zip"
