@@ -1,9 +1,9 @@
 {
-"applications": {
-        "gecko": {
-          "id": "YouTubeLegacyUI@ablaze.one"
-        }
-      },
+  "applications": {
+    "gecko": {
+      "id": "ytlegacyui@rainyan.net"
+    }
+  },
   "manifest_version": 2,
   "name": "YouTubeLegacyUI",
   "version": "1.0.0",
