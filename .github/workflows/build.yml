@@ -20,7 +20,7 @@ jobs:
           cp -r css v2
           cp -r icons v2
           cd v2
-          zip -r ../Firefox.xpi .
+          zip -r ../Firefox.xpi.zip .
       - name: Build v3🛠
         run: |
           mkdir v3
