@@ -43,6 +43,11 @@
     border-radius: 2px;
 }
 
+/* Notice Card */
+.ytd-clarification-renderer[round-container]{
+    border-radius: 2px !important;
+}
+
 /* Video Overlay Channel Subscribe */
 .ytp-button .ytp-sb-subscribe, .ytp-sb-unsubscribe{
     border-radius: 2px !important;
