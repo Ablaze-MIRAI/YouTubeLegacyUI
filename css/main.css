@@ -48,6 +48,10 @@
     border-radius: 2px !important;
 }
 
+ytd-info-panel-content-renderer.style-scope.ytd-watch-flexy {
+    border-radius: 3px !important;
+}
+
 /* Video Overlay Channel Subscribe */
 .ytp-button .ytp-sb-subscribe, .ytp-sb-unsubscribe{
     border-radius: 2px !important;
