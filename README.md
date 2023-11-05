@@ -6,7 +6,7 @@ YouTubeを新UIのMaterialYouを旧UI(2022/09)に近いもので上書きしま�
 
 ## Install
 
-coming soon...
+https://ablaze.one/projects/youtubelegacyui
 
 ## Details
 
